@@ -1,0 +1,102 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+    color: black;
+}
+
+.sticky-top {
+    top: 15px;
+}
+
+.background {
+    background-color: white;
+    border: 1px solid #d3e0e9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toast-body {
+    background-color: rgba(229, 229, 229, 1);
+}
+
+.sidebar-nav li > span.main-title {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 85%;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.sidebar-nav li > span {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 90%;
+    font-weight: bold;
+    font-weight: 800;
+}
+
+.sidebar-nav li > a.nav-link {
+    color: rgba(0, 0, 0, 1);
+    font-size: 100%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-item > a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.nav-sub-menu {
+    width: 100%;
+}
+
+.nav-sub-menu li a.nav-link {
+    padding-left: 25px;
+    font-size: 85%;
+    color: black;
+}
+
+.nav-sub-menu li a.nav-link.active {
+    padding-left: 25px;
+    font-size: 85%;
+    color: white;
+}
+
+.dropdown-item {
+    font-size: 90%;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .2s;
+}
+
+.fade-enter, .fade-leave-to {
+    opacity: 0;
+}
+
+.slide-fade-enter-active {
+    transition: all .2s ease;
+}
+
+.slide-fade-leave-active {
+    transition: all .2s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter, .slide-fade-leave-to {
+    transform: translateX(10px);
+    opacity: 0;
+}
