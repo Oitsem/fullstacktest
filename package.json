@@ -17,7 +17,7 @@
         "popper.js": "^1.15.0",
         "cross-env": "^5.1",
         "laravel-mix": "^2.0",
-        "lodash": "^4.17.5",
+        "lodash": "^4.17.19",
         "vue": "^2.6.10",
         "vue-router": "^3.0.6",
         "vuex": "^3.1.1"
